@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .card{
+        background-color: cadetblue;
+        border-radius: 5px;
+        width: 80%;
+        margin-top: 5px;
+        padding: 10px;
+      }
+
+      @media(min-width:600px) {
+        .container{
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        .card{
+          width: 48%;
+        }
+      }
+
+      @media (min-width:1200px) {
+        .card{
+          width: 30%;
+        }
+        .card:nth-child(1){
+          display: none;
+        }
+      }
+    </style>
+</head>
+<body>
+  
+  <!-- display : flex -->
+   <div class="container">
+        <div class="card">uno</div>
+        <div class="card">dos</div>
+        <div class="card">tres</div>
+        <div class="card">cuatro</div>
+        <div class="card">uno</div>
+        <div class="card">dos</div>
+        <div class="card">tres</div>
+        <div class="card">cuatro</div>
+        
+        <div class="card">cuatro</div>
+   </div>
+</body>
+</html>
