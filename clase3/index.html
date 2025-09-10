@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       *{
         margin: 0;
@@ -21,7 +22,14 @@
         margin-top: 5px;
         padding: 10px;
       }
-
+      .header{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .menu{
+        display: none;
+      }
       @media(min-width:600px) {
         .container{
           flex-direction: row;
@@ -40,10 +48,36 @@
         .card:nth-child(1){
           display: none;
         }
+        .menu_bur{
+          display: none;
+        }
+        .menu{
+          display: flex;
+          list-style: none;
+          gap: 10px;
+        }
+        .menu li a{
+          text-decoration: none;
+          color: chocolate;
+        }
       }
     </style>
 </head>
 <body>
+  <header class="header">
+    <h1>LOGO</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href=".">Item</a></li>
+        <li><a href=".">item</a></li>
+        <li><a href=".">item</a></li>
+        <li><a href=".">item</a></li>
+      </ul>
+      <span class="menu_bur">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+    </nav>
+  </header>
   
   <!-- display : flex -->
    <div class="container">
@@ -55,8 +89,9 @@
         <div class="card">dos</div>
         <div class="card">tres</div>
         <div class="card">cuatro</div>
-        
-        <div class="card">cuatro</div>
+        <div class="card">cuatro
+          <a href=".">Otro link</a>
+        </div>
    </div>
 </body>
 </html>
