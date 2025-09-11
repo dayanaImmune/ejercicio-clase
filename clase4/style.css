@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    background-color: pink;
+    margin: auto;
+}
+.danger{
+    background-color: red;
+    color: white;
+}
+.warning{
+    background-color: yellow;
+}
+.hidden{
+    display: none;
+}
+.dark_mode{
+    background-color: darkgray;
+}
+.form div{
+    margin: 10px;
+}
