@@ -35,3 +35,5 @@ const pelis  = [
     duracionMin: 108
   }
 ]
+
+/* Al cargar la pagina que se muestre un boton, al hacer click en el boton se debe renderizar la lista de peliculas*/
