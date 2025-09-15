@@ -35,3 +35,31 @@ const pelis  = [
     duracionMin: 108
   }
 ]
+
+const btn = document.querySelector(".btn")
+const lista = document.querySelector(".lista")
+
+
+function renderProtagonistas(lista){
+  let html = ""
+  for(const prota of lista){
+    html += `<li>${prota}</li>`
+  }
+  return `<ul>${html}</ul>`
+}
+function render(peli){
+  return `<li> 
+      Titulo: ${peli.titulo}
+      Año : ${peli.anio},
+      Protagonistas : ${renderProtagonistas(peli.protagonistas)}
+    </li>`
+}
+btn.addEventListener("click", ()=>{ 
+  lista.innerHTML ="";
+  for (const peli of pelis) {
+    lista.innerHTML += render(peli)
+  }
+  //btn.classList.add("hidden")
+})
+
+

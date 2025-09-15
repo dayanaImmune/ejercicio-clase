@@ -10,16 +10,18 @@ form.addEventListener("submit", (ev)=>{
     const num2 = parseFloat(form.elements["num2"].value)
     console.log(num1)
 
+    result.textContent = `El resultado es: ` 
+
     if( op === "+"){
-        result.textContent = `El resultado es ${num1 + num2}`
+        result.textContent += num1 + num2
     }
     else if( op === "-"){
-        result.textContent = `El resultado es ${num1 - num2}`
+        result.textContent += num1 - num2
     }
     else if( op === "*"){
-        result.textContent = `El resultado es ${num1 * num2}`
+        result.textContent += num1 * num2
     }
     else if( op === "/"){
-        result.textContent = `El resultado es ${num1 / num2}`
+        result.textContent +=num1 / num2 
     }
 })
