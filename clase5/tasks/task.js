@@ -25,4 +25,5 @@ const tasks = [
  * 4.- Eliminar una tarea
  * 5.- Crear un formulario para solicitar los datos de una nueva tarea
  * 6.- Añadir la nueva tarea al array y mostrarla en la lista
+ * 7.- crear un selector de CSS, con la propiedad de tachar el texto
  */
