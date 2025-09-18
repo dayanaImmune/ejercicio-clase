@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.articles{
+    width: 30%;
+    border-radius: 10px;
+    background-color: lightblue;
+}

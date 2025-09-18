@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr); 
+    gap:10px;
+}
+.div{
+    width: 150px;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.back{
+    background-color: cadetblue;
+    width: 150px;
+    height: 90px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hidden{
+    display: none;
+}
+.rotate{
+    transform: rotateY(180deg);
+}
