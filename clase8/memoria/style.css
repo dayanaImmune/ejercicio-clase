@@ -7,9 +7,12 @@
 .div{
     width: 150px;
     position: relative;
+    perspective: 1000px;
 }
 img{
     width: 100%;
+    transition: all 1s;
+    backface-visibility: hidden;
 }
 .back{
     background-color: cadetblue;
@@ -17,11 +20,19 @@ img{
     height: 90px;
     border-radius: 5px;
     position: absolute;
+    backface-visibility: hidden;
     top: 0;
     left: 0;
+    transition: all 1s;
 }
 .hidden{
     display: none;
+}
+.div.rotate img {
+ transform: rotateY(360deg);
+}
+.div.rotate .back {
+ transform: rotateY(180deg);
 }
 .rotate{
     transform: rotateY(180deg);
