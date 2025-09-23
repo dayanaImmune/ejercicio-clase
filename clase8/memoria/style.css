@@ -8,6 +8,7 @@
     width: 150px;
     position: relative;
     perspective: 1000px;
+    cursor: pointer;
 }
 img{
     width: 100%;
