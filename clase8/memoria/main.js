@@ -34,9 +34,10 @@ for(const div of allDiv){
 }
 
 /**
+ * 0.- añadir una clase de css que deshabilite el div ***
  * 1.- Reiniciar partida, quitar rotate a todos los div.
  * 2.- Guardar en LS la partida que no ha sido terminada.
- * 3.- Al encontrar la pareja añadir un estilo especial
+ * 3.- Al encontrar la pareja añadir un estilo especial ***
  * 4.- Llevar la cuenta de puntos. [definir las reglas]
  * 5.- En js tener un array de las rutas de las imagenes, mezclar el array usando Math.random()
  *     llenar las imagenes desde JS
