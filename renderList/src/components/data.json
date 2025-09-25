@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "genero": "Aventura",
+    "plataforma": "Nintendo Switch"
+  },
+  {
+    "id":2,
+    "titulo": "God of War Ragnarök",
+    "genero": "Acción",
+    "plataforma": "PlayStation 5"
+  },
+  {
+    "id":3,
+    "titulo": "Halo Infinite",
+    "genero": "Shooter",
+    "plataforma": "Xbox Series X"
+  },
+  {
+    "id":4,
+    "titulo": "Elden Ring",
+    "genero": "RPG",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id":5,
+    "titulo": "Minecraft",
+    "genero": "Sandbox",
+    "plataforma": "Multiplataforma"
+  }
+]

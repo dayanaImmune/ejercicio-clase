@@ -1,5 +1,5 @@
 function List(props) {
-  console.log(props)
+  console.log(props) // objeto
   return (
     <div>
         <ul>
